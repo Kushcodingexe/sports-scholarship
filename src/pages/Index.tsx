@@ -113,7 +113,7 @@ const Index = () => {
       {/* Hero Section */}
       <section
   className="relative overflow-hidden bg-cover bg-center py-20 lg:py-32"
-  style={{ backgroundImage: "url('/edit eil ggn.jpg')" }}
+  style={{ backgroundImage: "url('https://github.com/Kushcodingexe/sports-scholarship/blob/main/edit%20eil%20ggn.jpg')" }}
 >
   {/* Dark transparent overlay */}
   <div className="absolute inset-0 bg-black bg-opacity-70 z-0" />
