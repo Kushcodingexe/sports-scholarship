@@ -42,7 +42,7 @@ const api = axios.create({
   headers: {
     'Content-Type': 'application/json'
   },
-  timeout: 10000, // 10 second timeout
+  timeout: 1000000, // 10 second timeout
   withCredentials: false // Changed to false for '*' origin CORS
 });
 
