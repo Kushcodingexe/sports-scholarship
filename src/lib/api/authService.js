@@ -18,7 +18,7 @@ async function findWorkingServer() {
         headers: {
           'Accept': 'application/json'
         },
-        timeout: 2000 
+        timeout: 20000 
       });
       
       if (response.ok) {
