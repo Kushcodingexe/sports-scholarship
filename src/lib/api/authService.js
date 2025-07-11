@@ -12,7 +12,7 @@ async function findWorkingServer() {
     try {
       console.log(`Testing connection to: ${url}`);
       // Use a simple GET request with CORS mode set explicitly
-      const response = await fetch(url.replace('/api/auth', '/health'), { 
+      const response = await fetch(url.replace('/api/auth', '/'), { 
         mode: 'cors',
         method: 'GET',
         headers: {
