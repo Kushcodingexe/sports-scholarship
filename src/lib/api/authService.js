@@ -3,7 +3,7 @@
 // Try multiple possible server URLs
 const API_URLS = [
   'http://localhost:7777/api/auth',
-  'http://127.0.0.1:7777/api/auth'
+  'https://sports-scholarship.onrender.com//api/auth'
 ];
 
 // Function to test which server is responding
